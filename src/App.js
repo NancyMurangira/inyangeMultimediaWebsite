@@ -1,26 +1,25 @@
-
 import React from 'react';
 import './App.css';
-import Podcast from './Podcast';
+import LandingPage from './Landingpage';
 import VideoSection from './Videos';
-import Landingpage from './Landingpage';
 import Blog from './Blog';
-import Footer from './Footer';
+import Podcast from './Podcast';
 import Portfolio from './Resume';
+import Footer from './Footer';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Landingpage/>
+      <LandingPage />
       <VideoSection />
-      <Blog/>
+      <Blog />
       <Podcast />
-      <Portfolio/>
-      <Footer/>
+      <Portfolio />
+      <Footer />
     </div>
   );
 }
-export default App;
 
+export default App;

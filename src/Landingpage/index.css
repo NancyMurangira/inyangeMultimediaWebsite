@@ -1,80 +1,86 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  .container {
-    background-color: #113D3C;
-    max-width: 100%;
-    min-height: 100vh;
-    padding: 20px 40px;
-    box-sizing: border-box;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    /* font-size: 20px; */
-  }
-  .logo {
-    width: 350px;
-    height: 300px;
-  }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .nav-links li {
-    margin-left: 30px;
-  }
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  .nav-links a.active {
-    border-bottom: 2px solid white;
-  }
+.landing-page {
+  background-color: #113D3C;
+  min-height: 100vh;
+  padding: 20px 40px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+
+.enjoy {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
   .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0;
-  }
-  .hero-text {
-    flex: 1;
-    color: white;
-  }
-  .hero-text h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  .hero-text p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    max-width: 80%;
-  }
-  .enjoy {
-    font-size: 24px;
-    font-weight: bold;
+    flex-direction: column;
+    text-align: center;
   }
   .hero-image {
-    flex: 1;
-    text-align: right;
+    margin-top: 30px;
   }
-  .hero-image img {
-    max-width: 80%;
-    height: auto;
-  }
-  @media (max-width: 768px) {
-    .hero {
-      flex-direction: column;
-      text-align: center;
-    }
-    .hero-image {
-      margin-top: 30px;
-    }
-  }
+}
