@@ -35,7 +35,7 @@ function Footer() {
                    <div className="footer-column">
                        <h3>Connect</h3>
                        <div className="social-icons">
-                           {/* Add your social media icons here */}
+                          
                            <a href="#" className="social-icon">FB</a>
                            <a href="#" className="social-icon">TW</a>
                            <a href="#" className="social-icon">IG</a>

@@ -1,29 +1,30 @@
 import React from 'react';
 import './index.css';
-import logo from './logo.png';
-import headphones from './headphones.png';
+import headphone from './headphone.png'; 
+// import logo from './logo.png';
 
 function LandingPage() {
  return (
    <div className="landing-page">
      <nav className="navbar">
-       <img src={logo} alt="SimbaNet Logo" className="logo" />
+       <div className="logo">INYANGE
+       {/* <img src={logo} alt="Logo" /> */}
+       </div>
+       <div className='Links'/>
        <ul className="nav-links">
-         <li><a href="#home" className="active">Home</a></li>
+         <li><a href="#home">Home</a></li>
          <li><a href="#videos">Videos</a></li>
          <li><a href="#blog">Blog</a></li>
-         <li><a href="#podcast">Podcast</a></li>
-         <li><a href="#resume">Resume</a></li>
+         <li><a href="#podcast">Portfolio</a></li>
        </ul>
      </nav>
      <div className="hero">
        <div className="hero-text">
-         <h1>SimbaNet</h1>
-         <p>Dive into captivating journey crafted by our talented team. Explore our website and learn more about my team.</p>
-         <p className="enjoy">Enjoy !</p>
+         <h1>Experience Content,<br/>Not Distractions</h1>
+         <p>Welcome into a world of multimedia. We will be sharing different contents that resonates with your passion.</p>
        </div>
        <div className="hero-image">
-         <img src={headphones} alt="Headphones" />
+         <img src={headphone} alt="High-quality headphones" />
        </div>
      </div>
    </div>
